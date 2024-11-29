@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input id="screen">
+            
+    </input>
+        <div class="numbers">
+        <button class="number" class="num" onclick="appendDisplay('7')" id="7">7</button>
+        <button class="number" class="num" onclick="appendDisplay('8')" id="8">8</button>
+        <button class="number" class="num" onclick="appendDisplay('9')" id="9">9</button>
+        <button class="number" onclick="appendDisplay('+')" id="plus">+</button>
+        <button class="number" class="num" onclick="appendDisplay('4')" id="4">4</dbutton>
+        <button class="number" class="num" onclick="appendDisplay('5')" id="5">5</button>
+        <button class="number" class="num" onclick="appendDisplay('6')" id="6">6</button>
+        <button class="number" onclick="appendDisplay('-')" id="minus">-</button>
+        <button class="number" class="num" onclick="appendDisplay('1')" id="1">1</button>
+        <button class="number" class="num" onclick="appendDisplay('2')" id="2">2</button>
+        <button class="number" class="num" onclick="appendDisplay('3')" id="3">3</button>
+        <button class="number" onclick="appendDisplay('*')" id="razy">*</button>
+        </div>
+        <div class="bottom">
+        <button class="number" class="num" onclick="appendDisplay('0')" id="0">0</button>
+        <button class="number" onclick="appendDisplay('.')" id="dot">.</button>
+        <button class="number" onclick="appendDisplay('/')" id="divide">/</button>
+        <button class="number" onclick="cal()" id="sol">=</button>
+        </div>
+        <button class="empty" onclick="empty()">clear</button>
+    </div>
+    
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
